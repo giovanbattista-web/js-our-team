@@ -41,7 +41,7 @@ const teamMembers = [
 let creazioneCard = (componenti) => {
   let card = `<div class="col">
                        <div class="card-immagine">
-                         <img src ="./img/${componenti.img}" alt="" class="img-fluid">
+                         <img src ="./${componenti.img}" alt="" class="img-fluid">
                        </div>
                        <div class="testo-card">
                          <h3>${componenti.name}</h3>
@@ -52,6 +52,7 @@ let creazioneCard = (componenti) => {
   document.getElementById('componentiGruppo').innerHTML += card;
 }
 
-for (let i = 0; i < teamMembers; i++) {
+for (let i = 0; i < teamMembers.length; i++) {
   creazioneCard(teamMembers[i]);
 }
+
