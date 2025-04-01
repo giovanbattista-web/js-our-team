@@ -9,8 +9,11 @@ body{
 }
 
 .testo-card{
-    padding : 5px 0;
-    
+    padding-left : 15px;
+    display: flex;
+    background-color: black;
+    color: white;
+    border : 1px solid black;
 }
 
 .container{
@@ -30,7 +33,25 @@ body{
     justify-content: space-between;
 }
 
-.card{
-    background-color: black;
-    display: flex;
+
+p {
+    margin: 45px 0;
+}
+
+.contenuto {
+    padding : 25px;
+    margin : 45px;
+}
+
+
+.gap {
+    gap : 10px;
+}
+
+.fucsia{
+    color : fuchsia;
+}
+
+.testo-card img{
+    width: 90px;
 }
