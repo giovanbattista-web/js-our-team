@@ -40,6 +40,7 @@ const teamMembers = [
 // FUNZIONE CHE MI CREA LE CARD 
 let creazioneCard = (componenti) => {
   let card = `<div class="col">
+                   
                        <div class="card-immagine">
                          <img src ="./${componenti.img}" alt="" class="img-fluid">
                        </div>
@@ -48,7 +49,8 @@ let creazioneCard = (componenti) => {
                          <div>${componenti.role}</div>
                          <a href="">${componenti.email}</a>
                        </div>
-                </div>`
+                   
+              </div>`
   document.getElementById('componentiGruppo').innerHTML += card;
 }
 
