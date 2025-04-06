@@ -1,65 +1,38 @@
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box; 
-}
-body{
-    background-color: white;
-    font-size : 20px;
-}
-
-.testo-card{
-    display: flex;
-    background-color: black;
-    color: white;
-    border : 1px solid black;
-    align-items: center;
-}
-
-.container{
-    max-width: 1300px;
-    margin : 0 auto;
-
-}
-
-.d-flex{
-    display: flex;
-}
-.flex-wrap{
-    flex-wrap : wrap;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
-
-p {
-    margin: 45px 0;
-}
-
-.contenuto {
-    padding : 25px;
-    margin : 45px;
-}
-
-
-.gap {
-    gap : 15px;
-}
-
-.fucsia{
-    color : fuchsia;
-}
-
-.testo-card img{
-    width: 90px;
-}
-
-.margin-top {
+main {
     margin-top : 50px;
 }
 
-.margin-bottom {
-     margin-bottom : 70px;
+h1 {
+    font-size : 48px;
+    color : rgb(255, 47, 82);
+    font-weight : 800;
+}
+
+.team-card {
+         display: flex;
+         background-color: black;
+         color: white;
+}
+
+.card-img {
+    width : 100px;
+}
+
+.card-content {
+    padding : 10px;
+    width : calc(100% - 100px)
+}
+
+h3 {
+    font-size : 20px;
+    font-weight: 700;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
 }
