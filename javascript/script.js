@@ -73,8 +73,8 @@ const renderCards = (members, container) => {
                 </div>`
   }
 
-  // INSERIRE DINAMICAMENTE NEL DOM IL CONTENUTO DI cards
-  container.innerHTML = cards;
+// INSERIRE DINAMICAMENTE NEL DOM IL CONTENUTO DI cards
+container.innerHTML = cards;
 
 }
 
@@ -89,16 +89,15 @@ const img = imageField.value;
 // CREO UN NUOVO OGGETTO CHE ANDRO' POI AD INSERIRE NELL'ARRAY
 const newMember = {
 
-  // SHORTENED INVECE DI name : name E COSI' VIA 
-  name, 
-  role,
-  email,
-  img
+// SHORTENED INVECE DI name : name E COSI' VIA 
+name, 
+role,
+email,
+img
 }
 
 // AGGIUNGE IL NUOVO MEMBRO ALL'INTERNO DELL'ARRAY
 members.push(newMember);
-
 console.log(members);
 
 
